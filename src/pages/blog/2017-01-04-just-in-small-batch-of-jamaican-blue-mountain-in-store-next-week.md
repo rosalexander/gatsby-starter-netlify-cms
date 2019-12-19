@@ -10,4 +10,4 @@ tags:
 ---
 ![](/img/bigboy.jpg)
 
-During a trip to Vancouver, met this great furry beast while at the airport! I just had to take a picture. I have never met such a big one, especially one thats rocking a denim jacket!
+During a trip to Vancouver, we met this great furry beast while at the airport! I just had to take a picture. I have never met such a big one, especially one thats rocking a denim jacket!
