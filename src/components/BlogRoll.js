@@ -15,11 +15,16 @@ class BlogRoll extends React.Component {
     const { edges: posts } = data.allMarkdownRemark
 
     return (
-      <div className="columns is-gapless is-multiline is-mobile">
+      <div className="columns is-gapless is-multiline">
         {posts &&
           posts.map(({ node: post }) => (
-            <div className="column is-half">
-              <Img fluid={post.frontmatter.featuredimage.childImageSharp.fluid}/>
+            <div className="column is-half img__wrap">
+              <a href={post.fields.slug}>
+                <Img fluid={post.frontmatter.featuredimage.childImageSharp.fluid}/>
+                <div class="img__description_layer">
+                  <h1 class="img__description">{post.frontmatter.title}</h1>
+                </div>
+              </a>
             </div>
           ))}
       </div>
