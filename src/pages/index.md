@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: ckc_irl
 image: /img/sand.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: ckc_irl
+subheading: welcome!
 mainpitch:
   title: Why Kaldi
   description: >
