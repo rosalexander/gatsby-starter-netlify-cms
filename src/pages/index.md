@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: ckc_irl
-image: /img/sand.jpg
+image: /img/sand_top.jpg
 heading: ckc_irl
 subheading: welcome!
 mainpitch:
