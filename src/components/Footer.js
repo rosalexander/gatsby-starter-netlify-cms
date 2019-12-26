@@ -17,13 +17,8 @@ const Footer = class extends React.Component {
       <footer className="footer has-background-black has-text-white-ter">
         <div
           className="full-width-image margin-top-0"
-          style={{
-            backgroundImage: `url('/img/sand.jpg')`,
-            backgroundPosition: `top left`,
-            backgroundAttachment: `fixed`,
-          }}
         >
-          <a href="#top">
+          <a href={this.props.link || "#top"}>
             <h2
             className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
             style={{
@@ -35,7 +30,7 @@ const Footer = class extends React.Component {
               padding: '0.25em',
             }}
           >
-            back to top
+            back to {this.props.page || "top"}
           </h2>
         </a>
         </div>
@@ -50,6 +45,8 @@ Footer.propTypes = {
       frontmatter: PropTypes.object,
     }),
   }),
+  page: PropTypes.string,
+  link: PropTypes.string
 }
 
 

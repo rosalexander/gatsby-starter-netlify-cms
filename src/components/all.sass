@@ -126,6 +126,11 @@ $black: #2b2523
 footer.footer
   padding: 3rem 0rem 0rem
   background-color: transparent
+footer
+  .full-width-image
+    background-image: url('/img/sand.jpg')
+    background-position: top left
+    background-attachment: fixed
 
 //Menu overrides
 $menu-item-color: $white-ter
@@ -181,3 +186,11 @@ $menu-label-color: $white-ter
     text-align: center;
     max-width: 70%;
     margin: 0 0 1em;
+
+@media (max-width: 1024px)
+  footer
+    .full-width-image
+      background-position-x: 57%
+      background-position-y: 43vh
+      height: 200px 
+  
