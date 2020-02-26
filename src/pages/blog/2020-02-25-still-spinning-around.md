@@ -4,7 +4,7 @@ title: Still Spinning Around
 date: 2020-02-26T04:50:52.120Z
 description: 'Apr 30, 2019'
 featuredpost: true
-featuredimage: /img/87394969_2570400459953088_4341985299421724672_n.jpg
+featuredimage: /img/untitled.png
 tags:
   - personal
   - music
