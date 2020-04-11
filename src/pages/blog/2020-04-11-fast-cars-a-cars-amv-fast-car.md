@@ -6,6 +6,7 @@ description: 'Made in quarantine; March 21, 2020'
 featuredpost: true
 featuredimage: /img/kachow.jpg
 tags:
-  - '#music #amv'
+  - music
+  - amv
 ---
 <https://vimeo.com/399527489>
